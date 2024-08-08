@@ -1,0 +1,16 @@
+[
+    {
+        "model": "ArriendoApp.tipousuario",
+        "pk": 1,
+        "fields": {
+            "nombre": "arrendador"
+        }
+    },
+    {
+        "model": "ArriendoApp.tipousuario",
+        "pk": 2,
+        "fields": {
+            "nombre": "arrendatario"
+        }
+    }
+]

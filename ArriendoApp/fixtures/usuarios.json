@@ -1,0 +1,67 @@
+[
+    {
+        "model": "arriendoapp.usuario",
+        "pk": 1,
+        "fields": {
+            "nombres": "Juan",
+            "apellidos": "Pérez",
+            "rut": "12345678-9",
+            "direccion": 1,
+            "telefono": "+56912345678",
+            "correo": "juan.perez@example.com",
+            "tipo_usuario": 1
+        }
+    },
+    {
+        "model": "arriendoapp.usuario",
+        "pk": 2,
+        "fields": {
+            "nombres": "María",
+            "apellidos": "Gómez",
+            "rut": "98765432-1",
+            "direccion": 2,
+            "telefono": "+56987654321",
+            "correo": "maria.gomez@example.com",
+            "tipo_usuario": 2
+        }
+    },
+    {
+        "model": "arriendoapp.usuario",
+        "pk": 3,
+        "fields": {
+            "nombres": "Carlos",
+            "apellidos": "Sánchez",
+            "rut": "12312312-3",
+            "direccion": 3,
+            "telefono": "+56911111111",
+            "correo": "carlos.sanchez@example.com",
+            "tipo_usuario": 1
+        }
+    },
+    {
+        "model": "arriendoapp.usuario",
+        "pk": 4,
+        "fields": {
+            "nombres": "Ana",
+            "apellidos": "Rodríguez",
+            "rut": "32132132-2",
+            "direccion": 4,
+            "telefono": "+56922222222",
+            "correo": "ana.rodriguez@example.com",
+            "tipo_usuario": 2
+        }
+    },
+    {
+        "model": "arriendoapp.usuario",
+        "pk": 5,
+        "fields": {
+            "nombres": "Luis",
+            "apellidos": "Martínez",
+            "rut": "45645645-4",
+            "direccion": 5,
+            "telefono": "+56933333333",
+            "correo": "luis.martinez@example.com",
+            "tipo_usuario": 1
+        }
+    }
+]

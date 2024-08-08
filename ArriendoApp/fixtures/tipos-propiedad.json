@@ -1,0 +1,23 @@
+[
+    {
+        "model": "ArriendoApp.tipopropiedad",
+        "pk": 1,
+        "fields": {
+            "nombre": "casa"
+        }
+    },
+    {
+        "model": "ArriendoApp.tipopropiedad",
+        "pk": 2,
+        "fields": {
+            "nombre": "departamento"
+        }
+    },
+    {
+        "model": "ArriendoApp.tipopropiedad",
+        "pk": 3,
+        "fields": {
+            "nombre": "parcela"
+        }
+    }
+]

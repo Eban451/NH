@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    {% block content %}
+        <h1>Bienvenido</h1>
+        {% if user.is_authenticated %}
+            <p>Hola, {{ user.nombres }}!</p>
+            <a href="{% url 'logout' %}">Logout</a>
+            {% if user.tipo_usuario_id == 1 %}
+                <a href="{% url 'create_propiedad' %}">Crear Propiedad</a>
+            {% endif %}
+        {% else %}
+            <a href="{% url 'login_url' %}">Login</a>
+            <a href="{% url 'register' %}">Registrarse</a>
+        {% endif %}
+    {% endblock %}
+</body>
+</html>

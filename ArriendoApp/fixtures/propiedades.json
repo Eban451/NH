@@ -1,0 +1,92 @@
+[
+    {
+        "model": "arriendoapp.propiedad",
+        "pk": 1,
+        "fields": {
+            "nombre": "Casa en la Playa",
+            "descripcion": "Hermosa casa frente al mar con amplios espacios.",
+            "m2_construidos": 200.0,
+            "m2_totales": 500.0,
+            "estacionamientos": 2,
+            "habitaciones": 4,
+            "baños": 3,
+            "direccion": 1,
+            "comuna": 1,
+            "tipo_inmueble": 1,
+            "precio_mensual": "1500000.00",
+            "arrendador": 1
+        }
+    },
+    {
+        "model": "arriendoapp.propiedad",
+        "pk": 2,
+        "fields": {
+            "nombre": "Departamento en el Centro",
+            "descripcion": "Moderno departamento en el centro de la ciudad, cerca de todo.",
+            "m2_construidos": 80.0,
+            "m2_totales": 80.0,
+            "estacionamientos": 1,
+            "habitaciones": 2,
+            "baños": 1,
+            "direccion": 2,
+            "comuna": 2,
+            "tipo_inmueble": 2,
+            "precio_mensual": "800000.00",
+            "arrendador": 2
+        }
+    },
+    {
+        "model": "arriendoapp.propiedad",
+        "pk": 3,
+        "fields": {
+            "nombre": "Parcela en el Campo",
+            "descripcion": "Parcela amplia en el campo, ideal para descansar.",
+            "m2_construidos": 150.0,
+            "m2_totales": 2000.0,
+            "estacionamientos": 3,
+            "habitaciones": 3,
+            "baños": 2,
+            "direccion": 3,
+            "comuna": 3,
+            "tipo_inmueble": 3,
+            "precio_mensual": "1200000.00",
+            "arrendador": 3
+        }
+    },
+    {
+        "model": "arriendoapp.propiedad",
+        "pk": 4,
+        "fields": {
+            "nombre": "Casa Familiar",
+            "descripcion": "Casa espaciosa para una familia grande.",
+            "m2_construidos": 180.0,
+            "m2_totales": 600.0,
+            "estacionamientos": 2,
+            "habitaciones": 5,
+            "baños": 3,
+            "direccion": 4,
+            "comuna": 4,
+            "tipo_inmueble": 1,
+            "precio_mensual": "1300000.00",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "arriendoapp.propiedad",
+        "pk": 5,
+        "fields": {
+            "nombre": "Departamento de Lujo",
+            "descripcion": "Departamento de lujo con vista panorámica de la ciudad.",
+            "m2_construidos": 120.0,
+            "m2_totales": 120.0,
+            "estacionamientos": 1,
+            "habitaciones": 3,
+            "baños": 2,
+            "direccion": 5,
+            "comuna": 5,
+            "tipo_inmueble": 2,
+            "precio_mensual": "2000000.00",
+            "arrendador": 5
+        }
+    }
+]

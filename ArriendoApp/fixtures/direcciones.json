@@ -1,0 +1,52 @@
+[
+    {
+        "model": "ArriendoApp.direccion",
+        "pk": 1,
+        "fields": {
+            "calle": "Calle 1",
+            "numero": 100,
+            "dpto": "101A",
+            "comuna": 1
+        }
+    },
+    {
+        "model": "ArriendoApp.direccion",
+        "pk": 2,
+        "fields": {
+            "calle": "Calle 2",
+            "numero": 200,
+            "dpto": "202B",
+            "comuna": 2
+        }
+    },
+    {
+        "model": "ArriendoApp.direccion",
+        "pk": 3,
+        "fields": {
+            "calle": "Calle 3",
+            "numero": 300,
+            "dpto": null,
+            "comuna": 3
+        }
+    },
+    {
+        "model": "ArriendoApp.direccion",
+        "pk": 4,
+        "fields": {
+            "calle": "Calle 4",
+            "numero": 400,
+            "dpto": "404D",
+            "comuna": 4
+        }
+    },
+    {
+        "model": "ArriendoApp.direccion",
+        "pk": 5,
+        "fields": {
+            "calle": "Calle 5",
+            "numero": 500,
+            "dpto": null,
+            "comuna": 5
+        }
+    }
+]
