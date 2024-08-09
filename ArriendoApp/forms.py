@@ -37,3 +37,8 @@ class PropiedadForm(forms.ModelForm):
             'precio_arriendo', 'garantia', 'tipo_propiedad', 
             'disponible'
         ]
+
+class UsuarioUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Usuario
+        fields = ['nombres', 'rut', 'telefono', 'tipo_usuario', 'correo']

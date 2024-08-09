@@ -8,4 +8,5 @@ urlpatterns = [
     path('logout/', LogoutView.as_view(next_page='home'), name='logout'),
     path('register/', views.register, name='register'),
     path('create-propiedad/', views.create_propiedad, name='create_propiedad'),
+    path('profile/', views.profile, name='profile'),
 ]
