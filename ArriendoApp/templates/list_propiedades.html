@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Propiedades</title>
+</head>
+<body>
+    {% block content %}
+        <h1>Mis Propiedades</h1>
+        <ul>
+            {% for propiedad in propiedades %}
+                <li>
+                    <strong>{{ propiedad.nombre }}</strong> - {{ propiedad.direccion }}
+                    <a href="{% url 'edit_propiedad' propiedad.id %}">Editar</a>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'create_propiedad' %}">Crear nueva propiedad</a>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Propiedad</title>
+</head>
+<body>
+    {% block content %}
+        <h1>Editar Propiedad: {{ propiedad.nombre }}</h1>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ propiedad_form.as_p }}
+            <h3>Dirección</h3>
+            {{ direccion_form.as_p }}
+            <button type="submit">Guardar Cambios</button>
+        </form>
+
+        <a href="{% url 'list_propiedades' %}">Volver a Mis Propiedades</a>
+    {% endblock %}
+</body>
+</html>

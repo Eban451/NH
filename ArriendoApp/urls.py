@@ -9,4 +9,7 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('create-propiedad/', views.create_propiedad, name='create_propiedad'),
     path('profile/', views.profile, name='profile'),
+    path('mis-propiedades/', views.list_propiedades, name='list_propiedades'),
+    path('editar-propiedad/<int:propiedad_id>/', views.edit_propiedad, name='edit_propiedad'),
+    path('list_all_propiedades/', views.list_all_propiedades, name='list_all_propiedades'),
 ]

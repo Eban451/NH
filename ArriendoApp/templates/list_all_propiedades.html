@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas las Propiedades</title>
+</head>
+<body>
+    {% block content %}
+        <h1>Todas las Propiedades</h1>
+        <ul>
+            {% for propiedad in propiedades %}
+                <li>
+                    <strong>{{ propiedad.nombre }}</strong> - {{ propiedad.direccion.calle }}, {{ propiedad.direccion.comuna.nombre }}<br>
+                    <span>{{ propiedad.descripcion }}</span><br>
+                    <span>Precio: ${{ propiedad.precio_arriendo }}</span><br>
+                    <span>Habitaciones: {{ propiedad.habitaciones }}</span> | 
+                    <span>Baños: {{ propiedad.banos }}</span> | 
+                    <span>Estacionamientos: {{ propiedad.estacionamientos }}</span><br>
+                </li>
+                <hr>
+            {% endfor %}
+        </ul>
+    {% endblock %}
+</body>
+</html>
