@@ -10,9 +10,12 @@
         <h1>Bienvenido</h1>
         {% if user.is_authenticated %}
             <p>Hola, {{ user.nombres }}!</p>
+            <a href="{% url 'profile' %}">Perfil</a>
             <a href="{% url 'logout' %}">Logout</a>
+            <a href="{% url 'list_all_propiedades' %}">Propiedades Disponibles</a>
             {% if user.tipo_usuario_id == 1 %}
                 <a href="{% url 'create_propiedad' %}">Crear Propiedad</a>
+                <a href="{% url 'list_propiedades' %}">Propiedades Creadas</a>
             {% endif %}
         {% else %}
             <a href="{% url 'login_url' %}">Login</a>
