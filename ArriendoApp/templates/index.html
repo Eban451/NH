@@ -7,7 +7,7 @@
 </head>
 <body>
     {% block content %}
-        <h1>Bienvenido</h1>
+        <h1>Bienvenido a ArriendoApp</h1>
         {% if user.is_authenticated %}
             <p>Hola, {{ user.nombres }}!</p>
             <a href="{% url 'profile' %}">Perfil</a>
@@ -18,7 +18,7 @@
                 <a href="{% url 'list_propiedades' %}">Propiedades Creadas</a>
             {% endif %}
         {% else %}
-            <a href="{% url 'login_url' %}">Login</a>
+            <a href="{% url 'login_url' %}">Inciar Sesión</a>
             <a href="{% url 'register' %}">Registrarse</a>
         {% endif %}
     {% endblock %}
